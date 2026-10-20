@@ -20,6 +20,7 @@ Node.js 20.9+ (Node.js 22 LTS recommended) and npm.
 npm install
 npm run dev
 ```
+
 Open http://localhost:3000.
 
 ## Validation
@@ -39,6 +40,7 @@ npm run build
 4. Use the standard Next.js build command `npm run build`; do not set a static output directory.
 5. Deploy, then verify `/`, `/health`, `/about`, `/settings`, and `/api/health`.
 6. Push a new commit to confirm Git-connected deployments update the preview/deployment.
+
 Vercel authorization must be completed using an account with access to the target repository. Do not put credentials in source code.
 
 ## Design/accessibility
