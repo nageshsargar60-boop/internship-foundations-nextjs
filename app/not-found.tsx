@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound(){return <section className="mx-auto max-w-xl py-12 text-center"><p className="text-sm font-bold uppercase tracking-[.16em] text-brand">404 · Not found</p><h1 className="mt-3 text-4xl font-bold">This page does not exist.</h1><p className="mt-4 text-muted">Check the address or return to the project overview.</p><Link href="/" className="mt-7 inline-flex rounded-xl bg-brand px-5 py-3 text-sm font-bold text-white">Back to overview</Link></section>}
